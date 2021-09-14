@@ -24,10 +24,10 @@ library(ggmsa)
 #### 0. Información
 ```{r}
 titles <- c("United States of America",
-"India","Brazil","France","Russia","Turkey","United Kingdom","Italy","Spain","Germany","Argentina","Colombia","Poland","Iran","Mexico","Peru","Indonesia","Czechia","South Africa","Netherlands")
-short_titles <- c("US","IN","BR","FR","RU","TR","UK","IT","ES","DE","AR","CO","PL","IR","MX","PE","ID","CZ","ZA","NL")
+"India", "Brazil", "France", "Russia", "Turkey", "United Kingdom", "Italy", "Spain", "Germany", "Argentina", "Colombia", "Poland", "Iran", "Mexico", "Peru", "Indonesia", "Czechia", "South Africa", "Netherlands")
+short_titles <- c("US", "IN", "BR", "FR", "RU", "TR", "UK", "IT", "ES", "DE", "AR", "CO", "PL", "IR", "MX", "PE", "ID", "CZ", "ZA", "NL")
 
-viruses <- c("MZ046426","MW927136","MT925972","HG993784","MZ047312","MW308549","OB994371","MW660619","MW976780","MW822592","MW633891","MT470219","MZ047082","MW898809","MW884219","MW938089","MZ026853","MT534285","MW981442","MW577029")
+viruses <- c("MZ046426", "MW927136", "MT925972", "HG993784", "MZ047312", "MW308549", "OB994371", "MW660619", "MW976780", "MW822592", "MW633891", "MT470219", "MZ047082", "MW898809", "MW884219", "MW938089", "MZ026853", "MT534285", "MW981442", "MW577029")
 
 info <- data.frame(
   Country = titles,
